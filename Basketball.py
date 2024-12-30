@@ -12,7 +12,7 @@ This App will showcase the statistics of NBA players
 with a touch of Exploratory Data Analysis
 """)
 
-st.sidebar.header('User Input Features')
+st.sidebar.header('User Input Features');
 selected_year = st.sidebar.selectbox('Year',list(reversed(range(1950,2023))))
 
 @st.cache_data
